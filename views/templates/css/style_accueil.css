@@ -1,0 +1,78 @@
+body {
+	background-color: #A6BFCF;
+}
+
+
+#deco {
+	float:right;
+	position:relative;
+	right:10%;
+	margin-top:1.5%;
+}
+
+#avatar {
+	width: 100%;
+}
+
+#chavatar {
+	font-size:96%;
+}
+
+#info {
+	font-size:1.5em;
+}
+
+#inputnom {
+	display:none;
+}
+
+#inputprenom {
+	display:none;
+}
+
+#inputmail {
+	display:none;
+}
+
+#inputmdp {
+	display:none;
+}
+
+#prenom {
+	color:#ffffff;
+	font-weight: bolder;
+}
+
+#info {
+	color:#ffffff;
+}
+
+#color {
+	background-color:#044B75;
+}
+
+#modif {
+	font-size:85%;
+}
+
+.back a {
+	text-decoration:none;
+	color:#ffffff;
+}
+
+.back a:hover {
+	text-decoration:none;
+}
+
+.back {
+	margin-top:20%;
+	padding-bottom:3%;
+	-webkit-box-shadow: 12px 12px 21px -6px rgba(89,89,89,1);
+	-moz-box-shadow: 12px 12px 21px -6px rgba(89,89,89,1);
+	box-shadow: 12px 12px 21px -6px rgba(89,89,89,1);
+	filter:progid:DXImageTransform.Microsoft.Shadow(color=#cfcfcf, Direction=134, Strength=5);
+	background-color: #ffffff;
+	background-size:0em 0em 5em 0em;
+	}
+}
+
