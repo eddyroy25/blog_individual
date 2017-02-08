@@ -10,11 +10,11 @@ include("head.php");
        $query = $pdo->query("SELECT * FROM articles ORDER BY id_article DESC");
    }
    else if (isset($_GET['auteur'])) {
-	   $query = $pdo->query("SELECT * FROM articles WHERE nom_auteur='".$_GET['auteur']."' ORDER BY id_auteur DESC");
+	   $query = $pdo->query("SELECT * FROM articles WHERE nom_auteur='".$_GET['auteur']."' ORDER BY nom_auteur DESC");
 	   
    }
    else if (isset($_GET['categorie'])) {
-	   $query = $pdo->query("SELECT * FROM articles WHERE nom_categorie='".$_GET['categorie']."' ORDER BY id_categorie DESC");
+	   $query = $pdo->query("SELECT * FROM articles WHERE nom_categorie='".$_GET['categorie']."' ORDER BY nom_categorie DESC");
    }
    
    
