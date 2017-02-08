@@ -14,10 +14,9 @@
 		<meta charset="utf-8" />
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="templates/bootstrap/js/bootstrap.min.js"></script>
-        <script src="templates/popup.js"></script>
 	</head>
 	<body>
-		<h1>Le Blog d'Eddy</h1>
+		<h1><a href="http://eddyr.marmier.codeur.online/blog_individual/index.php">Le Blog d'Eddy</a></h1>
 		<header>
 			<div class="container">
 				<nav class="navbar">
@@ -25,7 +24,7 @@
 						
 							
 							<li class="dropdown">
-								<a class="link dropdown-toggle" data-toggle="dropdown" href="#">Auteurs
+								<a class="link dropdown-toggle" data-toggle="dropdown" href="#">AUTEURS
 								<span class="caret"></span></a>
 								<ul class="dropdown-menu">
 									  <?php 
@@ -38,7 +37,7 @@
 								</ul>
 							</li>
 							<li class="dropdown">
-								<a class="link dropdown-toggle" data-toggle="dropdown" href="#">Catégories
+								<a class="link dropdown-toggle" data-toggle="dropdown" href="#">CATEGORIES
 								<span class="caret"></span></a>
 								<ul class="dropdown-menu">
 									  <?php 

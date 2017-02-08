@@ -34,22 +34,19 @@ header('Content-Type: text/html; charset=utf-8');
 												<span id="articleerr" class="error"><?php echo $_SESSION["errarticle"];?></span><br>
 											</div>
 										</div>
-										<div class="col-xs-12 col-md-12 col-md-offset-5">
+										<div class="col-xs-12 col-md-12 col-md-offset-4">
 											<input class="publier" type="submit" value="Publier"/>
+											<a class="retour" href="accueil.php">Retour à l'accueil</a>
 										</div>
 									</form>
 								</div>
 							</div>
 						</div>
-						<span id="message"></span>
-						<span id="msg_all"></span>
+						<img class="branch" src="../images/branch.png">
 </main>
 
-					<script src ="fichier.js" type="text/javascript"></script>
-					<script src ="ajax.js" type="text/javascript"></script>
 					<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-
-					<!----<script>
+					<script>
 
 						    $(function(){
 
@@ -104,7 +101,7 @@ header('Content-Type: text/html; charset=utf-8');
 						                    url: $(this).attr("action"),
 						                    data: $(this).serialize(),
 						                    success : function() {
-						                        $("#formulaire").html("<div class='col-xs-12 col-md-8 col-md-offset-3'><p>L'article a bien été publié !</p></div><br><div class='col-xs-12 col-md-8 col-md-offset-3'><a class='accueil' href='index.php'>Retourner à l'accueil</a></div>");
+						                        $("#formulaire").html("<div class='col-xs-12 col-md-8 col-md-offset-3'><p class='articlepublie'>L'article a bien été publié !</p></div><br><div class='col-xs-12 col-md-8 col-md-offset-3'><a class='accueil' href='../index.php'>Retourner à l'accueil</a></div>");
 											
 						                    },
 						                });
@@ -112,7 +109,7 @@ header('Content-Type: text/html; charset=utf-8');
 						            return false;
 						        });
 						    });
-						</script>---->
+						</script>
 						
 <?php
 session_unset();

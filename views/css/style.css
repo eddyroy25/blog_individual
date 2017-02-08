@@ -22,14 +22,14 @@ header nav ul li a{
 }
 
 header .nav>li>a:hover{
-	color: green;
+	color: #44a349;
 	text-decoration:none;
 	background-color: #222;
 	transition: 0.5s ease;
 }
 
 header .nav>li>a:active{
-	color: green;
+	color: #44a349;
 	text-decoration:none;
 	background-color: #222;
 	transition: 0.5s ease;
@@ -52,6 +52,19 @@ h1 {
 	top:0;
 	width:100%;
 	z-index: 2;
+	
+}
+
+h1 a {
+	color:white;
+	text-decoration: none;
+	transition: 1s ease;
+}
+
+h1 a:hover {
+	color: #44a349;
+	text-decoration: none;
+	transition: 1s ease;
 }
 
 h2 {
@@ -93,13 +106,46 @@ input.publier {
 	width:15%;
 	margin-left: auto;
 	margin-right: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-decoration:none;
+	border-radius: 5px;
+	background-color: rgba(219, 255, 229, 0.5);
+	color:black;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 input.publier:hover{
 	background-color: #1eff5e;
 	transition: 0.5s ease;
-	
+	text-decoration:none;
+	color:black;
 }
+
+.retour {
+	font-weight: bold;
+	transition: 0.5s ease;
+	width:15%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 22px;
+	padding-bottom: 22px;
+	text-decoration:none;
+	border-radius: 5px;
+	background-color: rgba(219, 255, 229, 0.5);
+	color:black;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.retour:hover{
+	background-color: #1eff5e;
+	transition: 0.5s ease;
+	text-decoration:none;
+	color:black;
+}
+
 
 textarea {
 	padding-top: 15px;
@@ -117,4 +163,43 @@ textarea {
 textarea:focus {
 	background-color: #1eff5e;
 	transition: 0.5s ease;
+}
+
+.cat {
+	color:#097c0f;
+	font-weight:bold;
+}
+
+.author {
+	font-weight:bold;
+}
+
+#green {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background : rgba(18, 130, 23, 0.5);
+}
+
+#pop {
+	display: none;
+	background-color: #b0f4b3;
+	padding: 20px;
+	border: 20px solid #44a349;
+	border-radius: 10px;
+	float: left;
+	font-size: 1.2em;
+	position: fixed;
+	top: 10%;
+	z-index: 3;
+}
+
+.branch {
+	bottom:0%;
+	left: 0%;
+	width: 17%;
+	position:fixed;
+	z-index: 2;
 }
